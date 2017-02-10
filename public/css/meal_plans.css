@@ -1,0 +1,52 @@
+.subscribe{background-color: gray;
+			text-align: center;
+			color: white;}
+.email{margin: 0px 500px;
+		}
+#buttonemail{background-color: #4CAF50;
+	color: white;}
+#icon{width: 125px;
+	height: 125px;}
+.navigation{background-color: #F5E3D6;
+ 			}
+ .nav{ border-radius: 50%;
+ font-size: 16px;
+margin-right: 100px;
+background-color: green;
+color: white;}
+#login{float: right;
+border-radius: 50%;
+ font-size: 16px;
+ background-color: green;
+color: white;
+margin-top: 105px;}
+#login:hover{background-color: red;
+			font-size: 24px;
+			color: white;
+		border-radius: 50%;}
+.nav:hover{background-color: red;
+			font-size: 24px;
+			color: white;
+		border-radius: 50%;}
+video {z-index: -100;
+min-width: 100%;
+min-height: 100%;
+position: fixed;
+opacity: 0.5;}
+h2,h4{text-align: center;}
+.plan1{width: 250px;
+height: 250px;
+text-align: center;}
+.plan2{width: 250px;
+height: 250px;
+text-align: center;
+margin:auto;
+margin-top: -250px;}
+.plan3{width: 250px;
+height: 250px;
+text-align: center;
+margin: -250px 0px 0px  950px;}
+.about{margin: 0px 250px;
+text-align: center;
+background-color: #F5E3D6;}
+
