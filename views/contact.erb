@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="css/meal_plans.css">
+<link rel="icon" href="tab.png">
+<head>
+	<title>About Us</title>
+</head>
+<body >
+<div id="confirm"><%= flash[:confirm] if flash[:confirm] %></div>
+
+<div class="subscribe">
+	<p>Subscribe to our mailing system for great promos, recipes, and gifts!</p>
+		<form class="email">
+			<input type="text">
+			<button id="buttonemail">Submit</button>
+		</form>
+</div>
+<div class="navigation">
+	<img src="chicken-icon.png" id="icon">
+	<button id="home" class="nav">Home</button>
+	<a href="/mealplans"><button id="plans" class="nav" >Meal Plans</button></a>
+	<button id="recipes" class="nav">Recipes</button>
+	<a href="/contact"><button id="contact" class="nav" >Contact Us!</button></a>
+	<button id="login" >Login</button>
+
+<div class="about">
+	<img src="about.jpg">
+	<h3>About Us</h3>
+	<p>Chik-A-Dee started as a dream amongst friends to provide people with healthy and exciting ingredients at an affordable price. For far too long families have had to sacrifice their health due to financial constraints and limited themselves diet wise as a result. While we know there are other services out there like ours we like to think that our humble size and passion for the business shows in how our customer base is treated on a daily basis. Feel free to drop us a line below if you want to know anything else!</p>
+	<h2>Drop Us a Line</h2>
+<form method="POST">
+  <label for="email">Your Email</label>
+  <input name="email" placeholder="you@example.com" /><br />
+  <label for="subject">Subject</label>
+  <input name="subject" placeholder="Enter a title" /><br />
+  <textarea name="comment"></textarea><br />
+  <input type="submit" value="Send" />
+</form>
+
+
+</div>
+</div>
+</body>
+</html>
