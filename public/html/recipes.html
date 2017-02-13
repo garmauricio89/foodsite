@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Recipes</title>
+		<link rel="stylesheet" type="text/css" href="../css/recipe.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Sansita" rel="stylesheet">
+	</head>
+	<body>
+		<div id="container">
+			<header><!--Holds email and and subscribe button && nav bar with logo/home, plan, recipes, aboutus/contacts && bannner picture with H1 title and recipe menus-->
+<!--######################[ SUBSCRIBE ]########################-->
+				<div id="subscribe">
+					<div>
+						<p id="close">&times;</p>
+						<div class="straighten">
+
+						<label>Receive the latest recipes by subscribing now!<input id="useremail" placeholder="Enter E-Mail Address" type="email"></input></label><button type="button" id="emailbtn">Subscribe</button>
+					</div>
+					</div>
+				</div>
+<!--######################[ NAV-BAR ]########################-->
+				<nav id="mainNav">
+					<div class="align">
+						<img id="logo" class="nospace" src="../images/Martin-Berube-Flat-Animal-Chicken.ico" alt="Chik-a-dee logo">
+						<div id="login" class="login"><p>Login</p></div>
+						<ul>
+							<li id="aboutus"><a href="/contact.html">About Us</a></li>
+							<li id="recipeslink"><a href="recipes.html">Recipes</a></li>
+							<li id="meallink"><a href="/mealplans.html">Meal Plans</a></li>
+						</ul>
+					</div>
+				</nav>
+
+<!--######################[ BANNER ]########################-->
+				<div id="foodNav">
+					<div id="photobanner">
+						<div id="upcoming">
+							<h1>Recipes: Upcoming recipes</h1>
+						</div>
+<!--place holder for bg image-->
+					</div>
+					<nav>
+						<ul>
+							<li id="classicM">Classic Menu</li>
+							<li id="veggieM">Veggie Menu</li>
+							<li id="famM">Family Menu</li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+<!--######################[ RECIPES ]########################-->
+			<div id="recipes">
+			<!--hold the 3 different recipes. tabs will hold different menus-->
+				<div id="menu" class="clearfix">
+					<h2>Recent <span id="switch">Classic</span> Box Menu</h2>
+					<h2 id="foodtitle">Food Title</h2>
+					<img id="foodimg" src="http://getinspiredeveryday.com/food/wp-content/uploads/sites/5/2013/05/Meatlovers-Pizza-Burgers-GI-365-14.jpg" alt="picture of delicious food">
+					<div>
+						<div id="downloadbtn">Download</div>
+
+						<div id="times">
+
+							<h3>Ingredients</h3>
+							<p id="listofingredients"></p>
+							<img class="timeicon" src="../images/Egg_Timer-512.png" alt="Cooking Time Image">
+							<p class="timeNlvl"><span class="stronk">Cooking time </span><span id="cookingtime">30 min</span></p>
+						</div>
+						<div id="levels">
+							<img class="lvlicon" src="../images/Low-Connection.png" alt="Difficulty Level Image">
+							<p class="timeNlvl"><span class="stronk">Difficulty level</span> Level <span id="levelnum">1</span></p>
+						</div>
+					</div>
+					<div id="instructions">
+						<h3>Instructions:</h3>
+						<div id="recipeinstructions">
+							<ol>
+							<li>Preheat the grill on high. Remove the dirt, stems and gills from the mushrooms and set aside.</li>
+
+							<li>Form the Italian sausage into four patties. Place the pepperoni and mozzarella on a small plate.</li>
+
+							<li>Place the cherry tomatoes and sea salt into the blender and blend until chunky.</li>
+
+							<li>Lower the heat to medium and place the mushrooms cap side down. Spoon about ¼ cup of sauce into each mushroom. Place the sausage patties on the grill and cook both sausage and mushrooms for about 8 minutes.</li>
+
+							<li>Turn the sausage patties over and layer five pieces of pepperoni and two slices mozzarella on each patty. Cook for 5-8 minutes until burgers are cooked through and cheese is melty.</li>
+
+							<li>Remove the mushrooms from the grill onto a serving plate. Stack the burgers on top of the mushrooms and garnish with fresh basil.</li>
+
+							<li>Serve immediately with additional sauce.</li>
+							</ol>
+						</div>
+					</div>
+				</div>
+
+
+
+				<noscript>
+<!--@@@@@@@@@@@@@[ If js is disabled ]@@@@@@@@@@@-->
+				<div class="classicmenu">
+
+				</div>
+
+				<div class="veggiemenu">
+					<!--normally feeds 1-2. Set quanity to 3+ for family meals but allows for only veggies only-->
+
+				</div><!--veggie,enu-->
+
+				<div class="familymenu">
+					<!--higher quanity of foods here feed a family of 3-6 && includes both veggie and meat-->
+
+				</noscript>
+				</div><!--familymenu-->
+			</div><!--recipies-->
+		</div><!--Container-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/recipe.js"></script>
+	</body>
+</html>

@@ -1,0 +1,314 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #fefefe;
+	font-family: "Roboto Slab", serif;
+}
+
+h1, h2, h3, h4{
+	font-family: 'Sansita', sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 1.1em;
+}
+
+
+#container{
+
+}
+
+
+#subscribe{
+	margin: 0 auto;
+	background-color: #323232;
+	color: ghostwhite;
+	height: 5em;
+	line-height: 5em;
+/*	display: none;*/
+}
+
+.straighten{
+	text-align: center;
+}
+
+.straighten input{
+	margin-left: 1em;
+}
+
+.straighten button{
+	margin-left: 0.2em;
+}
+
+#close{
+	font-weight: bold;
+	font-size: 1.5em;
+	line-height: 0.6em;
+	float: right;
+	margin: 0.5em;
+	cursor: pointer;
+}
+
+#mainNav{
+	height: 5em;
+	background-color: #FF5252;
+	font-weight: bold;
+}
+
+#mainNav ul{
+	padding: 0;
+	margin: 0;
+}
+
+#mainNav li:hover{
+	background-color: #fc7979;
+	box-shadow: inset 0px -80px 0px -70px rgba(252,237,121,0.7);
+}
+
+#aboutus, #recipeslink, #meallink{
+	margin-left: 3%;
+	padding: 1.89em;
+}
+
+
+
+#aboutus{
+	margin-left: 10%;
+}
+
+
+#logo{
+	padding: 0;
+	margin: 0;
+	max-height: 7em;
+	z-index: 5;
+	position: absolute;
+}
+.login{
+	color: ghostwhite;
+	text-shadow: 0.1em 0.1em 0em #669933;
+	font-weight: bold;
+	text-align: center;
+	width: 6em;
+	float: right;
+	padding: 0;
+	margin: 1em;
+	background-color: #99CC33;
+	border-radius: 0.3em;
+	border-bottom: 0.2em solid #669933;
+}
+.login:hover{
+	border-bottom: 0 solid #669933;
+	border-top: 0.3em solid #FF5252;
+	border-top-left-radius: 0.5em;
+	border-top-right-radius: 0.5em;
+}
+
+.nospace{
+	margin: 0 0 0 1em;
+	padding: 0;
+	float: left;
+}
+
+.align{
+	display: inline-block;
+	width: 100%;
+}
+
+#photobanner{
+	box-shadow: inset 0 80px 60px -50px rgba(0,0,0,0.7);
+	background-image: url("../images/tumblr_n9ubqqppco1spl3lco1_1280.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	width: 100%;
+	height: 20em;
+	position: relative;
+}
+
+#foodNav{
+	padding: 0;
+	margin: 0;
+}
+
+#upcoming h1{
+	max-width: 20.5em;
+	margin: 0 auto;
+	padding: 0;
+	font-size: 2.5em;
+}
+
+#upcoming{
+	background-color: rgba(255,255,255,0.8);
+	box-shadow: inset 0 -80px 60px -50px rgba(255,255,255,1);
+	padding: 1.5em;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+}
+
+#foodNav nav{
+	box-shadow: inset 0 80px 50px -60px rgba(255,255,255,1);
+	padding: 0;
+	background-color: #efefef;
+	margin: 0;
+}
+
+#foodNav ul{
+	max-width: 52em;
+	margin: 0 auto;
+}
+
+#foodNav li{
+	font-size: 1.5em;
+	padding: 0.2em 0.7em 0.2em 0.6em;
+	border-bottom: transparent;
+	border-top-left-radius: 0.5em;
+	margin-right: -0.6em;
+	background-color: #fefe;
+	cursor: default;
+}
+
+#classicM{
+	background-color: #FF5252;
+}
+
+#classicM:hover{
+	background-color: #fc7979;
+}
+
+#veggieM{
+	background-color: orange;
+}
+
+#veggieM:hover{
+	background-color: #ffca44;
+}
+
+#famM{
+	background-color: #669933;
+	border-top-right-radius: 0.5em;
+}
+#famM:hover{
+	background-color: #8abf56;
+}
+
+#menu{
+	box-sizing: border-box;
+	max-width: 52em;
+	margin: 0 auto;
+	padding: 0 0 0.5em 1em;
+}
+
+.clearfix:before, .clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after{
+	clear: both;
+}
+
+
+#menu h2{
+	font-size: 1.9em;
+}
+
+#foodimg{
+	max-width: 65%;
+	height: auto;
+	float: left;
+	margin-right: 0.2em;
+	border-radius: 0.5em;
+}
+
+#foodimg:hover{
+	opacity: 0.8;
+}
+
+.timeicon{
+	max-height: 2em;
+	float: left;
+	margin-right: 0.2em;
+	padding-top: 0.6em;
+}
+
+.lvlicon{
+	max-height: 1.8em;
+	float: left;
+	margin-right: 0.2em;
+	padding-top: 0.6em;
+	filter: opacity(0.6);
+}
+
+#times{
+	float: left;
+	width: 16em;
+
+}
+
+.stronk{
+	font-weight: bold;;
+}
+
+#levels{
+	float: left;
+	width: 14em;
+}
+
+#downloadbtn{
+	color: ghostwhite;
+	text-shadow: 0.1em 0.1em 0em #669933;
+	font-weight: bold;
+	text-align: center;
+	width: 9em;
+	float: left;
+	padding: 0;
+	margin: 0.5em;
+	background-color: #99CC33;
+	border-radius: 0.3em;
+	border-bottom: 0.2em solid #669933;
+}
+
+
+#downloadbtn:hover{
+	border-bottom: 0 solid #669933;
+	border-top: 0.2em solid #FEFEFE;
+	border-top-left-radius: 0.5em;
+	border-top-right-radius: 0.5em;
+}
+
+ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+li{
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+
+#instructions h3{
+	clear: both;
+}
+
+#instructions ol{
+	margin: 0;
+}
+
+#instructions li{
+	margin: 0;
+	display: list-item;
+}
+
+#instructions{
+	padding-bottom: 1em;
+	display: none;
+}
+
+
