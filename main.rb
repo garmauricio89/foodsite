@@ -6,7 +6,15 @@ require 'sinatra/flash'
 
 enable :sessions
 
-get '/mealplans' do 
+get "/home" do
+	erb :home
+end
+
+get "/recipe" do
+	erb :recipe
+end
+
+get '/mealplans' do
 	erb :meal_plans
 end
 
@@ -14,7 +22,7 @@ get '/contact' do
   erb :contact
 end
 
- 
+
 get '/contact' do
   erb :contact
 end
@@ -28,7 +36,7 @@ post '/contact' do
 
     content = SendGrid::Content.new(
         type: 'plain/text',
-        value: params[:comment] 
+        value: params[:comment]
     )
 
     mail = SendGrid::Mail.new(from,subject,to,content)
